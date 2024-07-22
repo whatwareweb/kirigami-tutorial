@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Kirigami Tutorial
+Exec=kirigami-hello
+Icon=kde
+Type=Application
+Terminal=false
+Categories=Utility
