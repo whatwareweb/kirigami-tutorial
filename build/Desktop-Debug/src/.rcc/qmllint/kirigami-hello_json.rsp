@@ -1,0 +1,14 @@
+--bare
+-I
+/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src
+-I
+/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/bin
+-I
+/usr/lib64/qt6/qml
+--resource
+/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/.qt/rcc/qmake_org_kde_tutorial.qrc
+--resource
+/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/.qt/rcc/kirigami-hello_raw_qml_0.qrc
+/home/ryan/Desktop/kirigami-tutorial/src/Main.qml
+--json
+/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/kirigami-hello_qmllint.json

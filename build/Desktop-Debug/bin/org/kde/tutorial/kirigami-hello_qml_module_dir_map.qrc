@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/org/kde/tutorial">/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/bin/org/kde/tutorial</file>
+
+  </qresource>
+</RCC>

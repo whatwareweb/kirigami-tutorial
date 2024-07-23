@@ -1,11 +1,11 @@
 #include <QApplication>
 #include <QQmlApplicationEngine>
-#include <QQuickStyle>
-#include <QUrl>
 #include <QtQml>
-#include <KIconTheme>
+#include <QUrl>
+#include <QQuickStyle>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+#include <KIconTheme>
 
 int main(int argc, char *argv[])
 {

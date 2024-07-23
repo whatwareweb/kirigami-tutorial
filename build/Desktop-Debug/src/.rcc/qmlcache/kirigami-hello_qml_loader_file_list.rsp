@@ -1,0 +1,5 @@
+--resource
+/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/.qt/rcc/qmake_org_kde_tutorial.qrc
+--resource
+/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/.qt/rcc/kirigami-hello_raw_qml_0.qrc
+/qt/qml/org/kde/tutorial/Main.qml

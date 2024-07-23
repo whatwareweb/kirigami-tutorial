@@ -1,0 +1,143 @@
+{
+	"BUILD_DIR" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/kirigami-hello_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ryan/Desktop/kirigami-tutorial/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/ryan/Desktop/kirigami-tutorial/src/CMakeLists.txt",
+		"/usr/lib64/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/usr/lib64/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
+		"/usr/lib64/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/usr/lib64/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/ryan/Desktop/kirigami-tutorial",
+	"DEP_FILE" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/kirigami-hello_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "kirigami-hello_autogen/timestamp",
+	"HEADERS" : [],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/kirigami-hello_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/kirigami-hello_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"KCOREADDONS_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_FOREACH",
+		"QT_NO_KEYWORDS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_OPENGL_LIB",
+		"QT_QMLBUILTINS_LIB",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICKCONTROLS2_LIB",
+		"QT_QUICK_LIB",
+		"QT_STRICT_ITERATORS",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"_GNU_SOURCE",
+		"_LARGEFILE64_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_FACTORY_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		],
+		[
+			"K_PLUGIN_CLASS_WITH_JSON",
+			"[\n^][ \t]*K_PLUGIN_CLASS_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src",
+		"/home/ryan/Desktop/kirigami-tutorial/src",
+		"/usr/include/qt6/QtQml/6.7.2",
+		"/usr/include/qt6/QtQml/6.7.2/QtQml",
+		"/usr/include/qt6/QtCore/6.7.2",
+		"/usr/include/qt6/QtCore/6.7.2/QtCore",
+		"/usr/include/qt6/QtCore",
+		"/usr/include/qt6",
+		"/usr/lib64/qt6/mkspecs/linux-g++",
+		"/usr/include/qt6/QtQmlBuiltins/6.7.2",
+		"/usr/include/qt6/QtQmlBuiltins/6.7.2/QtQmlBuiltins",
+		"/usr/include/qt6/QtQmlBuiltins",
+		"/usr/include/qt6/QtQml",
+		"/usr/include/qt6/QtQmlIntegration",
+		"/usr/include/qt6/QtNetwork",
+		"/usr/include/qt6/QtQuick",
+		"/usr/include/qt6/QtGui",
+		"/usr/include/qt6/QtQmlModels",
+		"/usr/include/qt6/QtOpenGL",
+		"/usr/include/qt6/QtQuickControls2",
+		"/usr/include/qt6/QtWidgets",
+		"/usr/include/KF6/KI18n",
+		"/usr/include/KF6/KCoreAddons",
+		"/usr/include/KF6/KIconThemes",
+		"/usr/include",
+		"/usr/include/c++/14",
+		"/usr/include/c++/14/x86_64-redhat-linux",
+		"/usr/include/c++/14/backward",
+		"/usr/lib/gcc/x86_64-redhat-linux/14/include",
+		"/usr/local/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS",
+		"K_PLUGIN_FACTORY",
+		"K_PLUGIN_CLASS",
+		"K_PLUGIN_FACTORY_WITH_JSON",
+		"K_PLUGIN_CLASS_WITH_JSON"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-std=c++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/kirigami-hello_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/.qt/rcc/qrc_kirigami-hello_raw_qml_0.cpp",
+		"/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/.qt/rcc/qrc_qmake_org_kde_tutorial.cpp",
+		"/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/.rcc/qmlcache/kirigami-hello_Main_qml.cpp",
+		"/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/.rcc/qmlcache/kirigami-hello_qmlcache_loader.cpp",
+		"/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/kirigami-hello_qmltyperegistrations.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/CMakeFiles/kirigami-hello_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib64/qt6/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "/home/ryan/Desktop/kirigami-tutorial/build/Desktop-Debug/src/CMakeFiles/kirigami-hello_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/ryan/Desktop/kirigami-tutorial/src/main.cpp", "Mu", null ]
+	],
+	"VERBOSITY" : 0
+}

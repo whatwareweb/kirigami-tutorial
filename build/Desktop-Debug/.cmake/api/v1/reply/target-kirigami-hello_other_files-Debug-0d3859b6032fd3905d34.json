@@ -1,0 +1,174 @@
+{
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_expose_source_file_to_ide",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_add_qml_module",
+			"ecm_add_qml_module",
+			"set_property",
+			"qt6_target_qml_sources",
+			"ecm_target_qml_sources"
+		],
+		"files" : 
+		[
+			"/usr/lib64/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/usr/lib64/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/usr/share/ECM/modules/ECMQmlModule6.cmake",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 77,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 590,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2050,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 133,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 2770,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2215,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2269,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2060,
+				"parent" : 15
+			}
+		]
+	},
+	"id" : "kirigami-hello_other_files::@145eef247bfb46b6828c",
+	"name" : "kirigami-hello_other_files",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/src/.qt/rcc/qmake_org_kde_tutorial.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/bin/org/kde/tutorial/qmldir",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"isGenerated" : true,
+			"path" : "build/Desktop-Debug/src/.qt/rcc/kirigami-hello_raw_qml_0.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"path" : "src/Main.qml",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}
