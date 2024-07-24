@@ -17,14 +17,92 @@ Kirigami.ApplicationWindow {
     // and provides additional context for the translators
     title: "Countdown"
 
+    globalDrawer: Kirigami.GlobalDrawer {
+        isMenu: true
+        actions: [
+            Kirigami.Action {
+                text: i18n("Quit")
+                icon.name: "gtk-quit"
+                shortcut: StandardKey.Quit
+                onTriggered: Qt.quit()
+            }
+        ]
+    }
+
     ListModel {
         id: countdownModel
-        ListElement {
-            name: "Birthday"
-            description: "ur mom lolollolololoolool"
-            date: 100
+    }
+
+    Kirigami.Dialog {
+        id: addDialog
+        title: i18nc("@title:window", "Add kountdown")
+        standardButtons: Kirigami.Dialog.Ok | Kirigami.Dialog.Cancel
+        padding: Kirigami.Units.largeSpacing
+        preferredWidth: Kirigami.Units.gridUnit * 20
+
+        // Form layouts help align and structure a layout with several inputs
+        Kirigami.FormLayout {
+            // Textfields let you input text in a thin textbox
+            Controls.TextField {
+                id: nameField
+                // Provides a label attached to the textfield
+                Kirigami.FormData.label: i18nc("@label:textbox", "Name*:")
+                // What to do after input is accepted (i.e. pressed Enter)
+                // In this case, it moves the focus to the next field
+                onAccepted: descriptionField.forceActiveFocus()
+            }
+            Controls.TextField {
+                id: descriptionField
+                Kirigami.FormData.label: i18nc("@label:textbox", "Description:")
+                placeholderText: i18n("Optional")
+                // Again, it moves the focus to the next field
+                onAccepted: dateField.forceActiveFocus()
+            }
+            Controls.TextField {
+                id: dateField
+                Kirigami.FormData.label: i18nc("@label:textbox", "ISO Date*:")
+                // D means a required number between 1-9,
+                // 9 means a required number between 0-9
+                inputMask: "D999-99-99"
+                // Here we confirm the operation just like
+                // clicking the OK button
+                onAccepted: addDialog.onAccepted()
+            }
+            Controls.Label {
+                text: "* = required fields"
+            }
+        }
+        // The dialog logic goes here
+        Component.onCompleted: {
+            const button = standardButton(Kirigami.Dialog.Ok);
+            // () => is a JavaScript arrow function
+            button.enabled = Qt.binding( () => requiredFieldsFilled() );
+        }
+        onAccepted: {
+            // The binding is created, but we still need to make it
+            // unclickable unless the fields are filled
+            if (!addDialog.requiredFieldsFilled()) return;
+            appendDataToModel();
+            clearFieldsAndClose();
+        }
+        function requiredFieldsFilled() {
+            return (nameField.text !== "" && dateField.acceptableInput);
+        }
+        function appendDataToModel() {
+            countdownModel.append({
+                name: nameField.text,
+                description: descriptionField.text,
+                date: new Date(dateField.text)
+            });
+        }
+        function clearFieldsAndClose() {
+            nameField.text = ""
+            descriptionField.text = ""
+            dateField.text = ""
+            addDialog.close();
         }
     }
+
 
     Component {
         id: countdownDelegate
@@ -73,7 +151,7 @@ Kirigami.ApplicationWindow {
                         Layout.alignment: Qt.AlignRight
                         Layout.columnSpan: 2
                         text: i18n("Edit")
-                        // onClicked: to be done... soon!
+
                     }
                 }
             }
@@ -90,5 +168,16 @@ Kirigami.ApplicationWindow {
             model: countdownModel
             delegate: countdownDelegate
         }
+
+        actions: [
+            Kirigami.Action {
+                id: addAction
+                icon.name: "list-add"
+                text: i18nc("@action:button", "Add kountdown")
+                onTriggered: addDialog.open()
+            }
+        ]
+
     }
+
 }
